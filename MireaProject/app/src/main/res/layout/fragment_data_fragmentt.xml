@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataFragmentt">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:text="Baldur's Gate 3 — великое приключение, личное и эпическое."
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Еще с момента выхода в раннем доступе  было очевидно: в стенах Larian Studios готовится отличный проект с глубокой ролевой системой, детализированным миром, увлекательной историей и проработанными героями. И вот перед нами и вправду превосходное ролевое приключение, созданное по всем канонам жанра… точнее, не совсем так. Есть в Baldur's Gate 3 кое-что такое, что возносит ее куда выше просто качественной игры и делает даже не отличным, но эталонным проектом, который спустя десять или даже двадцать лет будут вспоминать как жанровый столп, как счастливое место, как любимое приключение, как черную дыру, которая нещадно засасывала все свободное время… Да что там жанровый столп, Baldur's Gate 3 – это одно из величайших приключений в истории индустрии, сравнимое по эмоциональному вовлечению и глубине с Dragon Age: Origins, Disco Elysium или The Elder Scrolls V: Skyrim. А начало этого приключения, как и положено, открывается созданием персонажа…" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="401dp"
+                android:layout_height="248dp"
+                android:src="@drawable/bg31"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="В создании самой внешности персонажа я провел времени не так уж и много, так как там небольшое количество ползунков для редактирования, но несмотря на это, персонажи там получаются вполне симпатичными. Но разнообразие классов, заклинаний, характеристик и талантов меня поразило так же, как и при первом прохождении Divinity: Original Sin 2 (прошлой громкой игры студии). Спустя час попыток разобраться во всем обилии описаний качеств, персонаж был создан. И вот какая неожиданность, сразу же после сохранения персонажа, нам предлагают создать еще одного, хранителя!"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                android:layout_width="396dp"
+                android:layout_height="216dp"
+                android:src="@drawable/bg32" />
+
+            <TextView
+                android:id="@+id/textView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                android:layout_width="399dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="176dp"
+                android:layout_marginEnd="177dp"
+                android:text="В раннем доступе хранитель был личностью скорее с романтическим подтекстом. Но в релизной теперь это телохранитель, который является главному герою во снах (напоминает чем-то богов из Divinity:OS2). Даже в создании персонажа хранитель теперь в броне." />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

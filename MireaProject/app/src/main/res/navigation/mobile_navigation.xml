@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/fragment_data"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.DataFragmentt"
+        android:label="Data"
+        tools:layout="@layout/fragment_data_fragmentt" />
+
+    <fragment
+        android:id="@+id/mediaRecorder"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.MediaRecorder"
+        android:label="fragment_media_recorder"
+        tools:layout="@layout/fragment_media_recorder" />
+    <fragment
+        android:id="@+id/compas"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.Compas"
+        android:label="fragment_compas"
+        tools:layout="@layout/fragment_compas" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileWorker"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.ui.fileworker.FileWorker"
+        android:label="fragment_file_worker"
+        tools:layout="@layout/fragment_file_worker" />
+    <fragment
+        android:id="@+id/encryptionActivity"
+        android:name="ru.mirea.shmyglev.a.d.mireaproject.ui.fileworker.EncryptionActivity"
+        android:label="fragment_encryption_activity"
+        tools:layout="@layout/fragment_encryption_activity" />
+</navigation>

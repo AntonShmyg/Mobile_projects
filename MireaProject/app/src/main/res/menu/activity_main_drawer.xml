@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_lock_silent_mode_off"
+            android:title="MusicPlayer" />
+        <item
+            android:id="@+id/fragment_data"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Data" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/mediaRecorder"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="MediaRecorder" />
+        <item
+            android:id="@+id/compas"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Compass" />
+        <item
+            android:id="@+id/fileWorker"
+            android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="FileWorker" />
+    </group>
+</menu>
